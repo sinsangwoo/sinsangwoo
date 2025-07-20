@@ -1,5 +1,6 @@
 <h1 align="center">🌟 "내일을 준비하는 세상이 당신과 함께 하도록" 🌟</h1> <p align="center"> 미래를 설계하는 예비 개발자, <strong>신상우</strong>의 GitHub 포트폴리오입니다. </p>
-👋 Introduction
+
+##👋 Introduction
 안녕하세요, 창의적인 문제 해결력과 끊임없는 호기심으로 기술을 배우고 실천하는 고등학교 3학년 예비 컴퓨터과학/AI 전공자 신상우입니다.
 
 🎯 AI 기술을 활용한 실질적 문제 해결에 관심이 많으며, 이를 바탕으로 탐구 프로젝트와 개인 개발을 진행하고 있습니다.
@@ -10,7 +11,7 @@
 
 📘 새로운 기술을 익히고, 직접 실험하며 기록을 남기는 것을 좋아합니다. 모든 학습 과정을 GitHub에 정리하여 공유하고 있습니다.
 
-🛠️ Tech Stack & Skills
+##🛠️ Tech Stack & Skills
 🧑‍💻 Programming
 Python (Pandas, Scikit-learn, Flask, Pygame)
 
@@ -34,11 +35,9 @@ JavaScript, HTML/CSS
 주가 예측, 리스크 스코어링, 대시보드 시각화를 포함한 AI 금융 플랫폼
 
 📫 Contact
-📧 이메일: sangwoo.dev.contact@gmail.com
+📧 이메일: aksrkd7191@gmail.com
 
-📎 포트폴리오 PDF 요청 또는 협업 제안은 언제든 환영합니다.
-
-🧭 성장의 방향
+##🧭 성장의 방향
 ☑️ 과학과 인공지능의 융합을 통해 창의적인 문제 해결 능력 강화
 
 ☑️ 개발자 커뮤니티에 기여하며 기술 공유와 협업 경험 쌓기
