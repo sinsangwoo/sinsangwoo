@@ -31,8 +31,6 @@
 | **Backend** | Flask 기반 간단한 AI 웹서비스 구축 |
 | **ETC** | Pygame, Git/GitHub, 기본적인 Frontend(HTML/CSS/JS) |
 
-> 기술을 “배운 적 있다”가 아니라, **실제로 모델을 만들고 성능을 비교하고 배포까지 해본 경험을 중심**으로 정리했습니다.
-
 ---
 
 ## 📌 Featured Projects
@@ -67,7 +65,7 @@
 ---
 
 ## 📫 Contact
-- **Email:** (원하는 이메일 주소)
+- **Email:** aksrkd7191@gmail.com
 - **GitHub Issues:** 자유롭게 문의 남겨주세요!
 
 ---
