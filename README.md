@@ -54,7 +54,7 @@ My goal is to solve complex problems in **Bio-Healthcare** or **Industrial Syste
 
 <!-- Footer -->
 <div align="left">
-  <a href="mailto:YOUR_EMAIL@ajou.ac.kr">
+  <a href="mailto:aksrkd7191@gmail.com">
     <img src="https://img.shields.io/badge/Email-Contact_Me-333333?style=flat-square&logo=gmail&logoColor=white" />
   </a>
 </div>
