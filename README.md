@@ -1,6 +1,6 @@
 <!-- Header -->
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0055a5&height=250&section=header&text=Hello,%20I'm%20[YourName]&fontSize=70&fontColor=ffffff" width="100%"/>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0055a5&height=250&section=header&text=Hello,%20I'm%20[sangwoo, sin]&fontSize=70&fontColor=ffffff" width="100%"/>
   
   <h3> 🧑‍💻 Undergraduate Student @ Ajou Univ. Software Dept. </h3>
   <p><b>"AI Engineer digging into the Mathematical Principles"</b></p>
