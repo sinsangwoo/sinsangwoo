@@ -1,9 +1,9 @@
 # Hello, I'm [Sangwoo Sin].
 
-**Software Engineering Undergraduate @ Ajou University**
+**1st Year Software Engineering Student @ Ajou University**
 
 I focus on **Mathematical Modeling**, **Optimization**, and **Engineering Fundamentals**.  
-My goal is to solve complex problems in **Bio-Healthcare** or **Industrial Systems** by bridging the gap between theoretical AI and practical software engineering.
+My goal is to solve complex problems in **BioMed** or **Industrial Systems** by bridging the gap between theoretical AI and practical software engineering.
 
 ---
 
@@ -43,7 +43,8 @@ My goal is to solve complex problems in **Bio-Healthcare** or **Industrial Syste
 
 ## 📖 Education & Interests
 
-*   **Ajou University** (2026 ~ Present)
+*   **Eunhye high school** (2023 ~ 2025)
+*   **Ajou University** (2026 ~ )
     *   B.S. in Software Engineering
     *   *Interests:* Artificial Intelligence, Industrial Engineering, Bio-Informatics
 *   **Focus Areas**
