@@ -1,7 +1,7 @@
 <h1 align="center">Hi, I'm Sangwoo Sin 👋</h1>
 
 <p align="center">
-  <b>Software Engineering Student @ Ajou University</b><br/>
+  <b>Freshman Software Engineering Student @ Ajou University</b><br/>
   <i>I build things at the intersection of ML theory, systems, and real-world deployment.</i>
 </p>
 
