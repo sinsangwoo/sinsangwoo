@@ -2,7 +2,7 @@
 
 <p align="center">
   <b>Freshman Software Engineering Student @ Ajou University</b><br/>
-  <i>I build things at the intersection of ML theory, systems, and real-world deployment.</i>
+  <i>Solo-building ML/physics-simulation projects outside coursework — in short, intense bursts, not a steady grind.</i>
 </p>
 
 <p align="center">
@@ -19,11 +19,11 @@
 
 ## 🧭 About Me
 
-I'm a 1st-year Software Engineering student who cares deeply about **understanding *why* algorithms work**, not just running them. My work spans ML research tools, physics simulation, NLP, and practical web services — all grounded in solid mathematical and engineering principles.
+1st-year Software Engineering student at Ajou University (started March 2026). Every project below is solo, unreleased, and unstarred — built to learn something specific, not to ship a product. Development happens in bursts: a few weeks of daily commits on one repo, then months of nothing, then a burst on the next one.
 
-- 🔬 Core interests: **Deep Learning Theory · Physics-Informed ML · Systems & OS Fundamentals**
-- 🏥 Applied goals: **Medical AI** (diagnostic imaging) · **Industrial AI** (process optimization)
-- 📐 Philosophy: derive before you import; optimize before you scale; question before you trust
+- 🔬 What I've actually built so far: gradient-diagnostics tooling, PDE solvers (FNO/PINN), classical-ML-vs-GNN experiments, a chest X-ray classifier prototype, and a from-scratch OS scheduler/memory simulator
+- 🏥 Where I'm aiming, not where I am: medical imaging and industrial-process ML — nothing shipped there yet, still building the fundamentals
+- 📐 How I actually work: derive or read the paper before importing the library. Most performance numbers in the projects below are self-measured inside each repo, not independently verified — flagged explicitly there rather than left to imply more than they show
 
 ---
 
@@ -33,26 +33,26 @@ I'm a 1st-year Software Engineering student who cares deeply about **understandi
 
 | Project | What it is | Stack |
 |:---|:---|:---|
-| **[Gradient Pathology](https://github.com/sinsangwoo/Why_Isnt_It_Learning)** | Production-grade PyTorch gradient diagnostics library — heatmaps, Sankey flow diagrams, real-time Streamlit dashboard, and a 7-rule ExpertEngine with code-snippet recommendations. v0.8.0 | `PyTorch` `Plotly` `Streamlit` `Python` |
-| **[Physics-Informed ML](https://github.com/sinsangwoo/Physics-Informed-ML)** | End-to-end physics simulation platform using Fourier Neural Operators and PINNs. 100–1000× faster than traditional PDE solvers, with Bayesian UQ, FastAPI backend, Three.js 3D frontend, and Terraform IaC. | `PyTorch` `FastAPI` `React` `Three.js` `Terraform` |
-| **[ML Gradient Descent Viz](https://github.com/sinsangwoo/ML-Gradient-Descent-Viz)** | MLP & backpropagation built from scratch with NumPy. Mathematical proofs, loss landscape visualization, and convergence analysis. | `NumPy` `Python` |
-| **[Physics-Informed Optimizer](https://github.com/sinsangwoo/Physics-Informed-Optimizer)** | Optimization algorithms informed by physical priors. | `Python` `SciPy` |
-| **[Chemical Reaction Rate Prediction](https://github.com/sinsangwoo/Chemical-Reaction-Rate-Prediction-ML)** | Compared Linear Regression, RF, and SVR for predicting reaction rates. Validated results against Arrhenius equation via feature importance. | `Scikit-learn` `Python` |
+| **[Gradient Pathology](https://github.com/sinsangwoo/Why_Isnt_It_Learning)** | PyTorch library that profiles gradient statistics during training to catch vanishing/exploding gradients and dead neurons — layer-wise heatmaps, Sankey diagrams, a live Streamlit dashboard, and a 7-rule diagnostic engine with code-fix suggestions. Has tests and an in-repo benchmark (under ~3% training overhead). Zero stars, zero outside users — a solo tool, not an adopted library. | `PyTorch` `Plotly` `Streamlit` `Python` |
+| **[Physics-Informed ML](https://github.com/sinsangwoo/Physics-Informed-ML)** | Fourier Neural Operator and PINN implementations for the heat equation, Burgers', and Navier-Stokes, wrapped in a FastAPI backend and a React/Three.js 3D frontend, plus uncertainty-quantification experiments (Bayesian PINN, deep ensembles). The "100–1000× faster than solvers" number compares a trained model's inference time to a full classical solve — a self-reported, in-repo comparison, not a third-party benchmark. | `PyTorch` `FastAPI` `React` `Three.js` `Terraform` |
+| **[ML Gradient Descent Viz](https://github.com/sinsangwoo/ML-Gradient-Descent-Viz)** | Started as a from-scratch NumPy backprop/MLP implementation, grew into a small optimizer library (SGD through AdamW) with convergence-theory notes and JAX/CuPy GPU benchmarks. The "deep non-convex" phase mentioned in the repo is still unbuilt — everything working today is convex/near-convex. | `NumPy` `JAX` `Python` |
+| **[Physics-Informed Optimizer](https://github.com/sinsangwoo/Physics-Informed-Optimizer)** | JAX/Flax framework for solving PDEs with physics-informed neural nets (heat equation, Navier-Stokes) — PINN-specific training tricks (curriculum learning, adaptive loss balancing), multi-GPU training, a Streamlit dashboard. Despite the name, it's not a general-purpose optimizer that uses physical priors; it's a PDE solver. | `Python` `JAX` `Flax` |
+| **[Chemical Reaction Rate Prediction](https://github.com/sinsangwoo/Chemical-Reaction-Rate-Prediction-ML)** | Started as a high-school chemistry class project. Now compares RandomForest/XGBoost against GNNs (GCN, GAT, GIN, MPNN) for predicting reaction rates from molecular structure, with a FastAPI + React interface. Headline numbers in the repo (R² 0.985, +18% from a hybrid model) are self-reported from commit messages, not from a published or independently reproduced result. | `Scikit-learn` `PyTorch (GNN)` `FastAPI` `React` |
 
 ### 🌐 Web & Systems
 
 | Project | What it is | Stack |
 |:---|:---|:---|
-| **[Ajou Dorm Finder](https://github.com/sinsangwoo/ajou-dorm-finder)** | Full-featured web app for Ajou University students — eligibility checks, score calculation, interactive room-type charts, and D-Day countdown for the new dorm. Responsive across all devices. | `React` `TypeScript` `Vite` |
-| **[AI Disease Classifier](https://github.com/sinsangwoo/AIdiseaseclassifier)** | End-to-end pneumonia detection web service from X-ray images. Solved class imbalance and reduced model size with ONNX quantization to fix cloud deployment crashes. | `Flask` `ONNX` `JavaScript` |
-| **[Mini OS Simulator](https://github.com/sinsangwoo/mini-os-sim)** | Process scheduling algorithms and memory management logic implemented from scratch for OS fundamentals study. | `Python` `C` |
-| **[NPU Simulator](https://github.com/sinsangwoo/NPU_Simulator)** | Neural Processing Unit simulator exploring hardware-level inference acceleration concepts. | `Python` `C` |
+| **[Ajou Dorm Finder](https://github.com/sinsangwoo/ajou-dorm-finder)** | Unofficial dorm-eligibility checker and assignment-score calculator for Ajou University students, with per-semester facility data, room-type charts, and a countdown to the new dorm building. No backend — all data is hardcoded per semester and updated by hand. | `React` `TypeScript` `Vite` |
+| **[AI Disease Classifier](https://github.com/sinsangwoo/AIdiseaseclassifier)** | Chest X-ray pneumonia-classification prototype — Flask API, ONNX Runtime inference, Grad-CAM heatmaps for explainability. The ONNX step is a format conversion, not quantization; there's no training code in the repo to back a class-imbalance fix. The project's own README already flags it as an educational prototype with no FDA/CE clearance. | `Flask` `ONNX` `JavaScript` |
+| **[Mini OS Simulator](https://github.com/sinsangwoo/mini-os-sim)** | CLI simulator of process scheduling (FCFS, SJF, Round Robin, Priority), paging and page replacement (FIFO/LRU), and syscalls (SLEEP/IO/FORK/EXIT) — built to learn OS fundamentals by implementing them, not to run anything real. | `Python` `C` |
+| **[NPU Simulator](https://github.com/sinsangwoo/NPU_Simulator)** | Repo created, nothing committed yet. Listed as an open placeholder for a hardware-inference-acceleration idea I haven't started, not as finished work. | — |
 
 ### 📝 NLP & Data
 
 | Project | What it is | Stack |
 |:---|:---|:---|
-| **[AI Cyberbullying NLP Analysis](https://github.com/sinsangwoo/AI-Cyberbullying-NLP-Analysis)** | NLP pipeline for detecting and analyzing cyberbullying patterns in text. | `Python` `NLP` |
+| **[AI Cyberbullying NLP Analysis](https://github.com/sinsangwoo/AI-Cyberbullying-NLP-Analysis)** | One-day project: TF-IDF + scikit-learn classifier for Korean toxic-comment detection, trained on 80k rows sampled from an AI Hub ethics dataset. No transformer model — that's future work noted in the README, not something built. | `Python` `Scikit-learn` |
 
 ---
 
@@ -89,10 +89,10 @@ I'm a 1st-year Software Engineering student who cares deeply about **understandi
 
 ## 📝 TIL
 
-I keep a daily learning log at **[sinsangwoo/TIL](https://github.com/sinsangwoo/TIL)** — notes on algorithms, ML theory, systems, and anything worth remembering.
+Learning log at **[sinsangwoo/TIL](https://github.com/sinsangwoo/TIL)** — notes on algorithms, ML theory, and tools, capped at 5 lines a day. Automated and daily since mid-August 2026; before that there's a 5-month gap where nothing was written.
 
 ---
 
 <div align="center">
-  <sub>Open to interesting problems. Always learning.</sub>
+  <sub>16 public repos, 0 stars — each built to learn one thing, not to ship. That part's next.</sub>
 </div>
