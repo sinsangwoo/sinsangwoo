@@ -22,7 +22,7 @@
 1st-year Software Engineering student at Ajou University (started March 2026). Every project below is solo, unreleased, and unstarred — built to learn something specific, not to ship a product. Development happens in bursts: a few weeks of daily commits on one repo, then months of nothing, then a burst on the next one.
 
 - 🔬 What I've actually built so far: gradient-diagnostics tooling, PDE solvers (FNO/PINN), classical-ML-vs-GNN experiments, a chest X-ray classifier prototype, and a from-scratch OS scheduler/memory simulator
-- 🏥 Where I'm aiming, not where I am: medical imaging and industrial-process ML — nothing shipped there yet, still building the fundamentals
+- 🏥 Where I'm aiming, not where I am: medical imaging, computer vision, and data science. I've applied for Ajou's Medical AI micro-degree, specifically for access to Ajou University Hospital's clinical infrastructure — that access is the part that's hard to replicate elsewhere. Nothing shipped in that direction yet
 - 📐 How I actually work: derive or read the paper before importing the library. Most performance numbers in the projects below are self-measured inside each repo, not independently verified — flagged explicitly there rather than left to imply more than they show
 
 ---
@@ -83,7 +83,8 @@
 | Period | Institution | Details |
 |:---|:---|:---|
 | 2023 – 2025 | **Eunhye High School** | — |
-| 2026 – | **Ajou University** | B.S. Software Engineering · AI · Industrial Engineering · Bio-Informatics |
+| 2026 – | **Ajou University** | Dept. of Software, Software & Computer Engineering major. The department is being restructured into the Division of AI & Computer Engineering from 2027, so the major names will change — treat this line as accurate for the 2026 intake only |
+| (applied) | **Ajou University** | Medical AI micro-degree — applied, not yet completed |
 
 ---
 
